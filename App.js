@@ -23,10 +23,7 @@ const App = () => {
           headerShown: false,
         }}
         initialRouteName={'Home'}>
-        {/* Tabs */}
         <Stack.Screen name="Home" component={Tabs} />
-
-        {/* Screens */}
         <Stack.Screen
           name="BookDetail"
           component={BookDetail}
